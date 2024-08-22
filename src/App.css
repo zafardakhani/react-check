@@ -1,10 +1,16 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+  background-color: #ffffe0; /* Light Yellow */
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-header {
-  margin: 50px auto;
+  margin: 20px;
   padding: 20px;
   max-width: 600px;
   border: 2px solid #282c34;

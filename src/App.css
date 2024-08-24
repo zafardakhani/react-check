@@ -3,11 +3,11 @@
   font-family: Arial, sans-serif;
   background-color: #ffffe0; /* Light Yellow */
   min-height: 100vh;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .App-header {
   margin: 20px;
   padding: 20px;
@@ -17,11 +17,15 @@
   background-color: #f4f4f4;
 }
 
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
 textarea {
-  width: 100%;
+  width: 70%;
   height: 100px;
   padding: 10px;
-  margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 16px;
@@ -41,6 +45,12 @@ button:hover {
   background-color: #21a1f1;
 }
 
-h2 {
+.result-section {
   margin-top: 20px;
+}
+
+.result-section p,
+.result-section h3 {
+  font-size: 18px;
+  margin: 5px 0;
 }

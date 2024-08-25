@@ -40,7 +40,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Sentiment Analysis Dashboard</h1>
+        <h1>Sentiment Analysis Dashboard by Zafar</h1>
         <div className="input-section">
           <textarea
             placeholder="Enter your comment here..."
@@ -59,8 +59,14 @@ const App = () => {
           </div>
         )}
       </header>
+      <img
+        src="https://w7.pngwing.com/pngs/505/485/png-transparent-symbiosis-law-school-symbiosis-international-deemed-university-symbiosis-school-of-economics-symbiosis-college-of-arts-and-commerce-symbiosis-society-hyderabad-miscellaneous-text-logo-thumbnail.png"
+        alt="Symbiosis Pune Logo"
+        className="logo"
+      />
     </div>
   );
 };
 
 export default App;
+

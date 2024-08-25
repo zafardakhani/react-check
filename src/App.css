@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .App-header {
@@ -14,7 +15,8 @@
   max-width: 600px;
   border: 2px solid #282c34;
   border-radius: 10px;
-  background-color: #f4f4f4;
+  background-color: rgba(244, 244, 244, 0.9);
+  z-index: 1;
 }
 
 .input-section {
@@ -53,4 +55,17 @@ button:hover {
 .result-section h3 {
   font-size: 18px;
   margin: 5px 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: auto;
+  opacity: 0.7;
 }
